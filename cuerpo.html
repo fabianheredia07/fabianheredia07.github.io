@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Tienda de zapatillas | Adidas</title>
+</head>
+<body>
+    <section class="imagen-encima">
+        <img src="adidas.jpg" alt="Adidas Originals" height="250px" width="100%">
+    </section>
+
+    <section class="contenedor">
+        <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item">Forum Low Triple White</span>
+                <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3d92ba80e65b47979462ac31012ba09d_9366/Zapatillas_Forum_Low_Blanco_FY7755_01_standard.jpg"  alt="" class="img-item">
+                <span class="precio-item">S/. 399 PEN</span>
+                <div class="opciones-talla">
+                    <label for="talla-forum-low-1">Seleccione Talla:</label>
+                    <select id="talla-forum-low-1">
+                        <option value="36">36</option>
+                        <option value="37">37</option>
+                        <option value="38">38</option>
+                        <option value="39">39</option>
+                        <option value="40">40</option>
+                    </select>
+                    <button class="boton-item" onclick="agregarAlCarrito(this)">Agregar al Carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Adi2000 Triple Black</span>
+                <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/9a5b9d63cc9c42939a44ae920127cb49_9366/Zapatillas_adi2000_Negro_GX4634_01_standard.jpg" alt="" class="img-item">
+                <span class="precio-item">S/. 499 PEN</span>
+                <div class="opciones-talla">
+                    <label for="talla-forum-low-2">Seleccione Talla:</label>
+                    <select id="talla-forum-low-2">
+                        <option value="36">36</option>
+                        <option value="37">37</option>
+                        <option value="38">38</option>
+                        <option value="39">39</option>
+                        <option value="40">40</option>
+                    </select>
+                    <button class="boton-item" onclick="agregarAlCarrito(this)">Agregar al Carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Superstar Negras</span>
+                <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/15f901c90a9549d29104aae700d27efb_9366/Zapatillas_Superstar_Negro_EG4959_01_standard.jpg" alt="" class="img-item">
+                <span class="precio-item">S/. 359 PEN</span>
+                <div class="opciones-talla">
+                    <label for="talla-forum-low-3">Seleccione Talla:</label>
+                    <select id="talla-forum-low-3">
+                        <option value="36">36</option>
+                        <option value="37">37</option>
+                        <option value="38">38</option>
+                        <option value="39">39</option>
+                        <option value="40">40</option>
+                    </select>
+                    <button class="boton-item" onclick="agregarAlCarrito(this)">Agregar al Carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Campus 00s</span>
+                <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ce738cbe5342421996feaf5001044964_9366/Zapatillas_Campus_00s_Plomo_HQ8707_01_standard.jpg" alt="" class="img-item">
+                <span class="precio-item">S/. 429 PEN</span>
+                <div class="opciones-talla">
+                    <label for="talla-forum-low-4">Seleccione Talla:</label>
+                    <select id="talla-forum-low-4">
+                        <option value="36">36</option>
+                        <option value="37">37</option>
+                        <option value="38">38</option>
+                        <option value="39">39</option>
+                        <option value="40">40</option>
+                    </select>
+                    <button class="boton-item" onclick="agregarAlCarrito(this)">Agregar al Carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Dime Stan Smith</span>
+                <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/30bb40e70ce747d9adf080b02b26b147_9366/Zapatillas_Dime_Stan_Smith_Blanco_IG2044_01_standard.jpg" alt="" class="img-item">
+                <span class="precio-item">S/. 429 PEN</span>
+                <div class="opciones-talla">
+                    <label for="talla-forum-low-5">Seleccione Talla:</label>
+                    <select id="talla-forum-low-5">
+                        <option value="36">36</option>
+                        <option value="37">37</option>
+                        <option value="38">38</option>
+                        <option value="39">39</option>
+                        <option value="40">40</option>
+                    </select>
+                    <button class="boton-item" onclick="agregarAlCarrito(this)">Agregar al Carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Break Start Low</span>
+                <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/656334bd8f8e48218f25cbf7872915cb_9366/BREAK_START_LOW_Verde_IE1015_01_standard.jpg" alt="" class="img-item">
+                <span class="precio-item">S/. 187 PEN</span>
+                <div class="opciones-talla">
+                    <label for="talla-forum-low-6">Seleccione Talla:</label>
+                    <select id="talla-forum-low-6">
+                        <option value="36">36</option>
+                        <option value="37">37</option>
+                        <option value="38">38</option>
+                        <option value="39">39</option>
+                        <option value="40">40</option>
+                    </select>
+                    <button class="boton-item" onclick="agregarAlCarrito(this)">Agregar al Carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Predator Club Pastp Sintético</span>
+                <img src="https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/8d2717b663974eb7ab117e4e8a0a1ec9_9366/Chimpunes_Predator_Club_Pasto_Sintetico_Negro_IG5458_01_standard_hover.jpg" alt="" class="img-item">
+                <span class="precio-item">S/. 190 PEN</span>
+                <div class="opciones-talla">
+                    <label for="talla-forum-low-7">Seleccione Talla:</label>
+                    <select id="talla-forum-low-7">
+                        <option value="36">36</option>
+                        <option value="37">37</option>
+                        <option value="38">38</option>
+                        <option value="39">39</option>
+                        <option value="40">40</option>
+                    </select>
+                    <button class="boton-item" onclick="agregarAlCarrito(this)">Agregar al Carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Samba Hello Kitty</span>
+                <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/34003ce456154c7f9b3ff9d0350b9c6f_9366/Zapatillas_Sambae_Hello_Kitty_Blanco_IG4450_01_standard.jpg" alt="" class="img-item">
+                <span class="precio-item">S/. 450 PEN</span>
+                <div class="opciones-talla">
+                    <label for="talla-forum-low-8">Seleccione Talla:</label>
+                    <select id="talla-forum-low-8">
+                        <option value="36">36</option>
+                        <option value="37">37</option>
+                        <option value="38">38</option>
+                        <option value="39">39</option>
+                        <option value="40">40</option>
+                    </select>
+                    <button class="boton-item" onclick="agregarAlCarrito(this)">Agregar al Carrito</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carrito de Compras -->
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <h2>Tu Carrito</h2>
+            </div>
+            <div class="carrito-items">
+                <!-- Aquí se añadirán dinámicamente los elementos del carrito -->
+            </div>
+            <div class="carrito-total">
+                <div class="fila">
+                    <strong>Tu Total</strong>
+                    <span class="carrito-precio-total">S/. 0 PEN</span>
+                </div>
+                <button class="btn-pagar">Pagar <i class="fas fa-shopping-bag"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Tienda de ropa | Adidas</title>
+</head>
+<body>
+    <section class="imagen-encima">
+        <img src="adidas.jpg" alt="Adidas Originals" height="250px" width="100%">
+    </section>
+
+    <section class="contenedor">
+        <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item">Buzo 3 tiras tricot basic</span>
+                <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1407ed57e66f497aa90b0034b827c287_9366/Buzo_3_Tiras_Tricot_Basic_Negro_IJ6058_21_model.jpg" alt="" class="img-item">
+                <span class="precio-item">S/. 140 PEN</span>
+                <div class="opciones-talla">
+                    <label for="talla-ropa-1">Seleccione Talla:</label>
+                    <select id="talla-ropa-1">
+                        <option value="XS">XS</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                    <button class="boton-item" onclick="agregarAlCarrito(this)">Agregar al Carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Camiseta oficial de la seleccion peruana</span>
+                <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/11d2efc805e24af6be2baf8701727749_9366/Camiseta_Oficial_de_Local_de_la_Seleccion_Peruana_2023_Blanco_GC4230_01_laydown.jpg" alt="" class="img-item">
+                <span class="precio-item">S/. 99 PEN</span>
+                <div class="opciones-talla">
+                    <label for="talla-ropa-2">Seleccione Talla:</label>
+                    <select id="talla-ropa-2">
+                        <option value="XS">XS</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                    <button class="boton-item" onclick="agregarAlCarrito(this)">Agregar al Carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <span class="titulo-item">M GG BIG BOS HD</span>
+                <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e007fa5e09444fb4be86aea6010c4ea6_9366/M_GG_BIG_BOS_HD_Plomo_HK9838_21_model.jpg" alt="" class="img-item">
+                <span class="precio-item">S/. 140 PEN</span>
+                <div class="opciones-talla">
+                    <label for="talla-ropa-3">Seleccione Talla:</label>
+                    <select id="talla-ropa-3">
+                        <option value="XS">XS</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                    <button class="boton-item" onclick="agregarAlCarrito(this)">Agregar al Carrito</button>
+                </div>
+            </div>
+            <!-- Puedes añadir más items de ropa aquí -->
+        </div>
+
+        <!-- Carrito de Compras (igual que antes) -->
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <h2>Tu Carrito</h2>
+            </div>
+            <div class="carrito-items">
+                <!-- Aquí se añadirán dinámicamente los elementos del carrito -->
+            </div>
+            <div class="carrito-total">
+                <div class="fila">
+                    <strong>Tu Total</strong>
+                    <span class="carrito-precio-total">S/. 0 PEN</span>
+                </div>
+                <button class="btn-pagar">Pagar <i class="fas fa-shopping-bag"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
